@@ -1,0 +1,153 @@
+.crt{
+	margin-bottom:20px;
+	width:193px;
+}
+.admin {
+	margin-left:28%;
+	width:40%;
+	padding:20px;
+	text-align:center;
+	height:150%;
+	background-color:#ffdab3;
+  border: 3px solid grey;
+}
+.addmin {
+	width:50%;
+	padding:20px;
+	text-align:center;
+	height:150%;
+	background-color:#d9e6f2;
+  border: 3px solid grey;
+}
+.klr{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px px 0;
+  margin-left:30%;
+  margin-bottom:20px;
+  cursor: pointer;
+  width: 40%;
+  display:block;
+  text-align:center;
+}
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+width:40%;
+  background-color: red;
+  margin-left:30%;
+  color:white;
+  cursor: pointer;
+  padding: 14px px 0;
+  display:block;
+  text-align:center;
+  margin-bottom:20px;
+}
+/* Avatar image */
+img.avatar {
+  width: 80px;
+  height:80px;
+  text-align:center;
+  margin:12px 0 12px 0;
+  border-radius: 100%;
+  border :2px solid grey
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  display:block
+}
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  display:block;
+  padding: 16px;
+}
+.heading{
+	font:bold;
+	background-color:grey;
+}
+a:link.spl, a:visited.spl {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:20px;
+}
+.title{
+	font:bold;
+	background-color:grey;
+	height:40px;
+	width:30%;
+	padding:5px;
+	font-size:18px;color:white;
+	text-align:center;
+}
+.tbody{
+	background-color:#ccffcc;
+	height:40px;
+	width:50%;
+	text-align:center;
+	font-size:18px;
+}
+.titleC{
+	font:bold;
+	background-color:#004080;
+	height:40px;
+	width:30%;
+	padding:5px;
+	font-size:18px;color:white;
+	text-align:center;
+}
+.tbodyC{
+	background-color:#ffdab3;
+	height:40px;
+	width:50%;
+	text-align:center;
+	font-size:18px;
+}
+table.fixed { table-layout:fixed; }
+table.fixed td { overflow: hidden; }
+header {
+  background-color:#004080;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color:white;
+/*   height: 350px; only for demonstration, should be removed */
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the footer */
+footer {
+  background-color: #004080;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+nav {
+  float: left;
+  width: 30%;
+/*   height: 350px; only for demonstration, should be removed */
+  background:white;
+  padding: 20px;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
