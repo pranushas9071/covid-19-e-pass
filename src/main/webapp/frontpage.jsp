@@ -8,15 +8,33 @@
 <style>
 img{
 width:50%;
-height:50%;
+height:100%;
+}
+button{
+background-color:#4CAF50;
+color:white;
+padding:3px;
+cursor: pointer;
+border-radius: 20px;
+height:40px;
+width:150px;
+outline: none;
+font-size:15px;
+border: 1px solid rgb(0, 51, 0);
+}
+button:hover{
+background-color:#00cc00;
+
 }
 </style>
 <title>covid 19 e-pass</title>
 </head>
-<body style="background-color:#e6f2ff">
-<h1 style="background-color:#000066;color:white">e-pass for movement during lockdown
+<body style="background-color:#ffffe6">
+<h1 style="background-color:#000066;color:white;padding:5px">e-pass for movement during lockdown
 </h1>
-<ul  style="background-color:#ccd9ff ;border:2px solid black;padding:10px 10px;font-size:18px" >
+<div style="border:2px solid black;background-color:#e6ffe6;padding-top:25px;padding-bottom:25px;font-size:20px;height:500px" >
+<img src="migration.jpg" align="left" hspace="40" border="1px solid black">
+<ul>
 <li>Any individual/group can apply for the movement pass using this framework.</li>
 <li>Fill in all the mandatory details carefully and submit.</li>
 <li>Please use an active e-mail ID to receive verification OTP.</li>
@@ -26,8 +44,9 @@ height:50%;
 <li>The provided e-pass will be valid only inside Tamil Nadu.</li>
 </ul>
 <form action="/adminVerify" style="display:inline">
-<button style="background-color:#4CAF50;color:white;padding:3px">admin</button></form>
-<button style="background-color:#4CAF50;color:white;padding:3px" onclick="document.location='UserVerification.jsp'">apply for e-pass</button>
-<button style="background-color:#4CAF50;color:white;padding:3px" onclick="document.location='nextform.jsp'">track your application</button>
+<button >admin</button></form>
+<button onclick="document.location='UserVerification.jsp'">apply for e-pass</button>
+<button onclick="document.location='nextform.jsp'">track application</button>
+</div>
 </body> 
 </html>
